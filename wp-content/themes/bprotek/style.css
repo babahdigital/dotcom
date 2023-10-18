@@ -1,0 +1,215 @@
+/*
+Theme Name: Babah Protek
+Description: Child theme bpdotcom
+Author: Abdullah
+Author URI: https://babahdigital.com
+Template: bpdotcom
+*/
+
+/* Add your custom CSS below */
+
+@font-face {
+    font-family: 'WhitneySS B';
+    src: url(/wp-content/themes/bprotek/font/WhitneySSmBook.ttf);
+    font-display: swap;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'WhitneySS M';
+    src: url(/wp-content/themes/bprotek/font/WhitneySSmMedium.ttf);
+    font-display: swap;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'WhitneySS SM';
+    src: url(/wp-content/themes/bprotek/font/WhitneySSmSemibold.ttf);
+    font-display: swap;
+    font-weight: 800;
+}
+
+body {
+    overflow-x: hidden;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+body {
+    font-family: 'WhitneySS B', 'WhitneySS M', 'WhitneySS SM', sans-serif !important;
+    font-style: normal;
+    color: rgb(0, 14, 53);
+    background-color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+
+#page-container {
+    box-shadow: 0 30px 50px rgb(0 0 0 / 10%);
+    max-width: 1600px !important;
+    margin: 0 auto;
+}
+
+@media (min-width: 1250px) {
+    .container {
+        max-width: inherit !important;
+        width: 100% !important;
+    }
+}
+
+.vc_row {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.vc_column_container>.vc_column-inner {
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+.sh-header {
+    padding-top: 5px;
+    height: 90px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.sh-header:not(.sh-header-6) .container, .sh-header-top:not(.sh-header-top-6) .container {
+    width: 100%!important;
+    max-width: 100%!important;
+}
+
+.sh-header .container,
+.sh-header-top .container {
+    padding: 0 30px !important;
+}
+
+#mega-menu-wrap-header {
+    margin-top: 7px;
+}
+
+#mega-menu-wrap-header #mega-menu-header>li.mega-menu-item>a.mega-menu-link {
+    font-size: 1.65rem;
+    text-shadow: 0.02rem 0.02rem rgba(0, 14, 53, 0.775);
+}
+
+#mega-menu-wrap-header #mega-menu-header li#mega-menu-item-100>a.mega-menu-link {
+    text-align: center;
+    width: 130px;
+    padding-top: 0.1rem;
+    font-size: 1.5rem;
+}
+
+.head-muka {
+    padding-bottom: 70px;
+    padding-top: 30px;
+}
+
+@media (min-width: 1250px) {
+    .head-muka {
+        padding-top: 20px;
+    }
+}
+
+.head-muka .sh-heading span {
+    padding-left: 2px;
+}
+
+.head-muka .sh-heading h1 {
+    letter-spacing: -3px;
+    margin-left: -3px;
+}
+
+.head-muka .sh-heading span,
+.head-muka .sh-heading h1 {
+    font-family: 'WhitneySS SM';
+}
+
+.head-muka .sh-button-medium {
+    display: inline-block;
+    padding: 0.4rem 3rem;
+    box-shadow: 0 2px 4px 0 #c8d7ee;
+    transition: all .2s ease-in-out;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.arrow-link {
+    font-style: normal;
+    font-weight: 600;
+    background: transparent;
+    border: 0;
+    color: #3368fa;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 0;
+    padding: 0;
+    position: relative;
+    text-decoration: none;
+    text-transform: none;
+    font-size: 16px;
+}
+
+.arrow-link:after {
+    content: "\21E2";
+    display: inline-block;
+    margin-left: 4px;
+    vertical-align: middle;
+}
+
+.arrow-link:before {
+    background: #baccff;
+    bottom: -2px;
+    content: "";
+    display: block;
+    height: 2px;
+    position: absolute;
+    width: 100%;
+}
+
+@keyframes underliner{0%{width:100%}50%{width:0}to{width:100%}}
+.arrow-link:hover:before {
+    animation:underliner 1s ease-out
+}
+
+.depan-property {
+    margin-bottom: 100px;
+    padding: 5px 0;
+    position: relative;
+    top: -110px;
+}
+
+.depan-property .vc_row {
+    background-repeat: no-repeat;
+    background-size: 300px 100%;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.text-property {
+    max-width: 700px;
+    left: 310px;
+    margin-top: -5px;
+    padding-bottom: 10px;
+    background: #fff;
+}
+
+.property-btn {
+    position: absolute;
+    right: 0px;
+    background: #fff;
+    top: 15px;
+}
+
+.property-btn .sh-button-style-1 {
+    max-width: 200px;
+    line-height: 15px;
+}
+
+.bd-img-cop {
+    position: relative;
+    top: -120px;
+    max-width: 1250px;
+    width: 100%;
+    padding-right: 15px;
+}

@@ -1,0 +1,1192 @@
+@media (max-width: 1406px) {
+	.bdsub-header-wrapper p {
+		padding: 0 12%;
+	}
+	.bdotcom-iconbox-wrapper {
+		width: 28%;
+	}
+	.col-sm-4 {
+		-ms-flex: 0 0 37% !important;
+		flex: 0 0 37% !important;
+		max-width: 37% !important;
+	}
+}
+
+@media (max-width: 1300px) {
+	.bdkonten-img {
+		width: 80%;
+	}
+	.bdkonten-page {
+		padding: 0 8%;
+	}
+	.bdsub-header-wrapper {
+		max-width: 80%;
+	}
+	.bdmain-header-klien-wrapper {
+		width: 570px;
+	}
+	.sub-klien-header-kanan {
+		padding: 0 8%;
+	}
+	.bdpage-text-ganal {
+		padding-right: 20%;
+		padding-left: 20%;
+	}
+}
+
+
+@media (max-width: 1280px) {
+	.bd-motto {
+		width: 60%;
+	}
+	.bdkonsultasi-wrapper {
+		padding: 0 15% 3%;
+	}
+	.bdotcom-iconbox-wrapper {
+		width: 30%;
+	}
+	.bdharga-wrapper {
+		width: 34%;
+		margin-bottom: 50px;
+	}
+	.bdharga {
+		margin-bottom: -60px;
+	}
+	.bdkolom-perbedaan-wrapper {
+		width: 25%;
+	}
+	.bd-list {
+		padding: 3% 16%;
+	}
+	.btn-lebar-ganal {
+		width: 70%;
+	}
+	.col-sm-4 {
+		-ms-flex: 0 0 40% !important;
+		flex: 0 0 40% !important;
+		max-width: 40% !important;
+	}
+}
+
+@media (max-width: 1217px) {
+	.bdkolom-perbedaan-wrapper {
+		width: 30%;
+	}
+}
+
+@media (max-width: 1200px) {
+	.container {
+		padding-right: 0;
+		padding-left: 0;
+		max-width: 100% !important;
+	}
+	.col-xl-6 {
+		width: 50% !important;
+	}
+	.col-xl-4 {
+		width: 33.333444% !important;
+	}
+	.bdmain-header-klien-wrapper {
+		margin-top: 30px;
+	}
+}
+
+@media (max-width: 1190px) {
+	.bdfloating-logo-img {
+		margin: 0 !important;
+	    margin-left: 10px !important;
+		margin-right: 10px !important;
+		margin-bottom: 30px !important;
+		float: unset;
+		display: inline-block;
+	}
+	.bdfloating-logo-img img {
+		height: 25px !important;
+	}
+	.bdfloating-logo-img:nth-child(even), .bdfloating-logo-img:nth-child(odd) {
+		animation-delay: 0s !important;
+	}
+}
+
+@media (max-width: 1185px) {
+	.bdlogo-img {
+		margin-bottom: 30px;
+	}
+	.bdlogo-wrapper {
+		margin-bottom: -70px;
+	}
+	.bdkonten-page {
+		padding: 0 3%;
+	}
+	.bdkonten-page-tengah {
+		margin-left: -20px;
+		padding-right: 30px;
+	}
+	.bdotcom-iconbox-wrapper {
+		width: 33%;
+	}
+	.bdfloating-logo {
+		margin-bottom: -30px;
+	}
+	.col-sm-4 {
+		-ms-flex: 0 0 45% !important;
+		flex: 0 0 45% !important;
+		max-width: 45% !important;
+	}
+	.bdkonsultasi-blog-wrapper .col-3 {
+		-ms-flex: 0 0 35%;
+		flex: 0 0 35%;
+		max-width: 35%;
+	}
+	.bdkonsultasi-blog-wrapper .col-4 {
+		-ms-flex: 0 0 42%;
+		flex: 0 0 42%;
+		max-width: 42%;
+	}
+	h2.bdkonsultasi-halus {
+		font-size: 1.7rem !important;
+	}
+	.bdkonsultasi-blog-wrapper {
+		-ms-flex-pack: space-around;
+		justify-content: space-around;
+	}
+	.sub-klien-header-kanan {
+		padding: 0;
+	}
+	.bdpage-text-ganal {
+		padding-right: 18%;
+		padding-left: 18%;
+	}
+}
+
+@media (max-width: 1125px) {
+	.bdsub-header-wrapper {
+		max-width: 90%;
+	}
+	.bdotcom-iconbox-wrapper {
+		padding: 0 20px;
+	}
+	.pd-bd-x-80 {
+		padding: 0 60px !important;
+	}
+	.bdpage-text {
+		padding: 3% 15% 5%;
+	}
+}
+
+@media (max-width: 1070px) {
+	.fw-page-builder-content {
+		margin-top: 75px;
+	}
+	.bdkonten-page h2 {
+		font-size: 1.609rem !important;
+	}
+	.bdkonten-page .h5 {
+		font-size: 1.009rem;
+	}
+	.bdkonsultasi-wrapper {
+		padding: 0 8% 3%;
+	}
+	.bdsub-header-wrapper {
+		max-width: 100%;
+		padding: 0 2%;
+	}
+	.bdsub-header {
+		margin-top: -10px;
+	}
+	.bdprogress-bar {
+		margin: 0 20px;
+	}
+	.bdmain-header-klien {
+		padding: 0 0 2% !important;
+	}
+	.bdmain-header-klien-wrapper h1 {
+		padding-top: 70px;
+	}
+	.bdmain-header-klien-wrapper .h6 {
+		margin-bottom: -50px !important;
+	}
+	.bdfloating-logo {
+		margin-bottom: 50px;
+	}
+	.col {
+		padding-right: 0 !important;
+		padding-left: 0 !important;
+	}
+	.bdmasking-kiri, .bdmasking-kanan {
+		margin: 0 15px;
+	}
+	.sub-klien-header-kanan h2 {
+		font-size: 2rem !important;
+	}
+	.sub-klien-konten .col-xl-8 {
+		-ms-flex: 0 0 65%;
+		flex: 0 0 65%;
+		max-width: 65%;
+	}
+	.sub-klien-konten .col-xl-4 {
+		-ms-flex: 0 0 20%;
+		flex: 0 0 30%;
+		max-width: 30%;
+	}
+	.bdpage-text p {
+		font-size: 1.1rem;
+	}
+	.bdjudul-text h6 {
+		font-size: .9rem;
+	}
+	.bdpage-text {
+		padding: 3% 10% 5%;
+	}
+}
+
+@media (max-width: 1060px) {
+	.bdotcom-iconbox-wrapper {
+		padding: 0 10px;
+	}
+	.bdfloating-logo {
+		margin-bottom: 70px;
+	}
+	.pd-bd-x-80 {
+		padding: 0 30px !important;
+	}
+}
+
+@media (max-width: 1021px) {
+	.bdharga-wrapper {
+		width: 40%;
+	}
+	.bdkolom-perbedaan-wrapper {
+		width: 31%;
+		padding: 0;
+	}
+	.bd-list {
+		padding: 3% 10%;
+	}
+	.btn-lebar-ganal {
+		width: 82%;
+	}
+	.bdkolom-standart .psukses {
+		width: 90%;
+		margin-bottom: 10%;
+	}
+}
+
+@media (max-width: 990px) {
+	.bd-text-wrapper {
+		display: none;
+	}
+	.bd-motto {
+		width: 80%;
+		margin: 20px 0 40px;
+	}
+	.text-animasi {
+		padding: 0;
+	}
+	.bdkonten-page p {
+		font-size: .89rem;
+	}
+	.bdkonten-page h2 {
+		font-size: 1.409rem !important;
+	}
+	.bdkonten-page .h5 {
+		font-size: .909rem;
+	}
+	.bdmain-header h1 {
+		width: 100%;
+	}
+	.bdmain-header {
+		padding: 4% 7% 10%;
+	}
+	.bdlogo-sub {
+		padding: 9% 0 2%;
+	}
+	.bd-perbedaan .col-xl-4 {
+		padding-right: 0 !important;
+		padding-left: 0 !important;
+	}
+	.bdsub-header-wrapper h1 {
+		font-size: 2.5rem !important;
+	}
+	.bdsub-header-wrapper p {
+		padding: 0 8%;
+	}
+	.bdotcom-iconbox-wrapper {
+		padding: 0 5px;
+	}
+	.bd-iconbox .bd-iconbox-title h3 {
+		font-size: 20px;
+	}
+	.col-sm-4 {
+		-ms-flex: 0 0 50% !important;
+		flex: 0 0 50% !important;
+		max-width: 50% !important;
+	}
+	.bdmain-header-klien {
+		background-position: 66% 60%;
+	}
+	.bdkonsultasi-blog-wrapper .col-3 {
+		-ms-flex: 0 0 35%;
+		flex: 0 0 35%;
+		max-width: 35%;
+	}
+	.bdkonsultasi-blog-wrapper .col-4 {
+		-ms-flex: 0 0 45%;
+		flex: 0 0 45%;
+		max-width: 45%;
+	}
+	.bdkonsultasi-blog-wrapper {
+		-ms-flex-pack: space-between;
+		justify-content: space-between;
+	}
+	.sub-klien-header .col-xl-6 {
+		width: 100% !important;
+	}
+	.sub-klien-header-kanan {
+		padding: 10%;
+	}
+}
+
+@media (max-width: 900px) {
+	.col-xl-6, .col-xl-4 {
+		width: 100% !important;
+		margin-bottom: 30px;
+	}
+	.bdkelebihan img {
+		background-size: cover;
+		width: 100%;
+	}
+	.bdkelebihan .btn-outline-primary {
+		width: 100%;
+	}
+	.bdkolom-kelebihan {
+		padding: 0 20%;
+	}
+	.bdjudul-logo {
+		margin-top: -25px;
+	}
+	.order {
+		order: 2;
+	}
+	.bdhps-float-kanan {
+		clear: right !important;
+		float: unset !important;
+	}
+	.bdhps-float-kiri {
+		clear: left !important;
+		float: unset !important;
+	}
+	.bdkonten-page, .bdkonten-img {
+		padding: 0 10%;
+		width: 100%;
+	}
+	.bdkonten-page {
+		margin-bottom: 10px;
+	}
+	.bdtop-min9 {
+		margin-top: -9% !important;
+	}
+	.bdmain-header {
+		background: #fff;
+		z-index: 1;
+		color: #294661 !important;
+		margin-top: -1px;
+		padding: 4% 10% 10%;
+	}
+	.bd-sec-header-main .bdkolom-standart {
+		margin: 0;
+	}
+	.bdkonten-page-tengah {
+		margin-left: 0;
+		padding-right: 0;
+	}
+	.bd-perbedaan h2 {
+		margin-top: -5px;
+	}
+	.bdkonsultasi-wrapper {
+		padding: 1% 2% 3%;
+		margin-bottom: -20px;
+	}
+	.bdbtn-putih {
+		width: 100%;
+	}
+	.bdmargin-min50 {
+		margin-bottom: -50px;
+	}
+	.btn-transparan {
+		width: 96%;
+	}
+	.bdsub-header-wrapper h1 {
+		line-height: 1.4 !important;
+	}
+	.bdsub-header-wrapper p {
+		padding: 0 2%;
+	}
+	.responsive-hps-my img {
+		margin-bottom: -60px;
+		margin-top: -20px;
+	}
+	.responsive-hps-mb img {
+		margin-bottom: -60px;
+	}
+	.responsive-add-mt {
+		margin-top: -10px !important;
+	}
+	.responsive-add-mb {
+		margin-bottom: 30px !important;
+	}
+	.bdqoute {
+		margin-bottom: -30px;
+	}
+	.bdqoute-wrapper {
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	.bdqoute-wrapper h4 {
+		font-size: 1.159rem;
+	}
+	.bdotcom-iconbox-kiri {
+		flex-wrap: wrap;
+		margin-bottom: -80px !important;
+	}
+	.bdotcom-iconbox-wrapper {
+		width: 47%;
+		margin-bottom: 50px;
+		padding: 0 30px !important;
+	}
+	.bdotcom-iconbox-kiri {
+		justify-content: space-between;
+	}
+	.bdkolom-perbedaan p {
+		font-size: .809rem;
+	}
+	.bdkolom-perbedaan {
+	    justify-content: space-between;
+	}
+	.bdkolom-perbedaan-wrapper {
+		width: 45%;
+		padding: 0 30px;
+		margin-bottom: 50px;
+	}
+	.bd-perbedaan {
+		margin-bottom: -80px;
+	}
+	.bdprogress {
+		padding: 0 7%;
+		margin-bottom: -60px;
+	}
+	.mt-min {
+		margin-top: -50px !important;
+	}
+	.mb-min {
+		margin-bottom: -40px !important;
+	}
+	.col {
+		max-width: 50% !important;
+		flex: 0 0 50%;
+		flex-basis: unset !important;
+	}
+	.col, .col-6 {
+		padding: 0 3% !important;
+	}
+	.bd-iconbox .bd-iconbox-title h3 {
+		font-size: 18px;
+	}
+	.col-sm-4 {
+		-ms-flex: 0 0 70% !important;
+		flex: 0 0 70% !important;
+		max-width: 70% !important;
+	}
+	.order-mobile {
+		order: 1 !important;
+	}
+	.bdmasking-kiri, .bdmasking-kanan {
+		margin: 0 35px;
+		margin-bottom: 30px;
+	}
+	.bdlogo-quote .col-2 {
+		-ms-flex: 0 0 30% !important;
+		flex: 0 0 30% !important;
+		max-width: 30% !important;
+	}
+	.bdkonsultasi-blog-wrapper .col-4 {
+		-ms-flex: 0 0 52%;
+		flex: 0 0 52%;
+		max-width: 52%;
+	}
+	.bdkonsultasi-blog-wrapper .col-3 {
+		-ms-flex: 0 0 39%;
+		flex: 0 0 39%;
+		max-width: 39%;
+	}
+	.bdkonsultasi-blog-wrapper .col-3, .bdkonsultasi-blog-wrapper .col-4 {
+		margin: 0 10px;
+	}
+	.sub-klien-konten .col-xl-8, .sub-klien-konten .col-xl-4 {
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.sub-klien-konten .col-xl-8 {
+		margin-bottom: 30px;
+	}
+	.btn-150 {
+		width: 100% !important;
+	}
+	.quote-bergambar .col-auto {
+		padding: 0 !important;
+	}
+	.bdpage-text {
+		padding: 3% 2% 5%;
+	}
+}
+
+@media (max-width: 767px) {
+	.btn {
+		width: 98%;
+		margin-bottom: 7px !important;
+	}
+	.bdmargin-hor-halus {
+		margin: 0;
+	}
+	.col-xl-12 {
+		padding-right: 0 !important;
+		padding-left: 0 !important;
+	}
+	.bd-motto {
+		width: 99%;
+		margin: 10px 0 30px;
+	}
+	.text-animasi {
+		padding: 0;
+	}
+	.bdkolom-kelebihan {
+		padding: 0 10%;
+	}
+	.container, .col-xl-6 {
+		padding-right: 5px !important;
+		padding-left: 5px !important;
+	}
+	.bd-padding5m {
+		padding: 0 7px;
+	}
+	.bdkonten-page, .bdkonten-img {
+		padding: 0 5%;
+	}
+	.bdmain-header {
+		padding: 4% 5% 10%;
+	}
+	.bdmain-header .display-4 {
+		font-size: 2.5rem;
+	}
+	.bdkonsultasi p {
+		font-size: 1.1rem;
+	}
+	.bdkonsultasi h4 {
+		font-size: 1.8rem;
+	}
+	.bdsub-header-wrapper p {
+		padding: 0;
+		font-size: .859rem;
+	}
+	.bdmain-header .btn {
+		width: 100% !important;
+	}
+	.bdjudul-logo {
+		padding: 0 7px;
+	}
+	.bdotcom-iconbox-judul {
+		margin-bottom: 30px !important;
+		margin-top: 5px;
+	}
+	.bdharga-wrapper {
+		width: 47%;
+	}
+	.bdkolom-perbedaan-wrapper {
+		width: 46%;
+		padding: 0 15px;
+	}
+	.bdprogress {
+		padding: 0 2%;
+	}
+	.bd-list {
+		padding: 4%;
+	}
+	.btn-lebar-ganal {
+		width: 96%;
+	}
+	.col {
+		max-width: 100% !important;
+		flex: 0 0 100%;
+		flex-basis: unset !important;
+	}
+	.col-6 {
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100% !important;
+		max-width: 100% !important;
+	}
+	.col, .col-6 {
+		padding: 0 25% !important;
+	}
+	.col .bd-iconbox-text {
+		padding: 0 5%;
+	}
+	.col-sm-4 {
+		-ms-flex: 0 0 100% !important;
+		flex: 0 0 100% !important;
+		max-width: 100% !important;
+	}
+	.bdkonsultasi-blog-wrapper .col-3, .bdkonsultasi-blog-wrapper .col-4 {
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+		margin: 20px 10px;
+	}
+	.bdkonsultasi-blog-wrapper {
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+	.bdkonsultasi-blog-wrapper .btn {
+		width: 100% !important;
+	}
+	p.bdkonsultasi-deskripsi {
+		padding-right: 20%;
+	}
+	.sub-klien-konten .col-xl-8 {
+		padding-left: 2% !important;
+		margin-top: -20px;
+	}
+	.sub-klien-konten .col-xl-4 {
+		background-color: #f4f6f7;
+		padding: 2% 2% 6%;
+	}
+	.bdjudul-text-wrapper h2 {
+		font-size: 1.7rem;
+	}
+	.bdjudul-text-icon {
+		font-size: 30px;
+		margin-right: 12px;
+	}
+}
+
+@media (max-width: 701px) {
+	.bdotcom-iconbox-wrapper {
+		width: 46%;
+	}
+}
+
+@media (max-width: 680px) {
+	.bdotcom-iconbox-wrapper {
+		width: 70%;
+	}
+	.bdotcom-iconbox-judul {
+		margin-bottom: 10px !important;
+		margin-top: 15px;
+	}
+	.bdotcom-iconbox-kiri {
+		margin-bottom: -70px !important;
+	}
+	.bdotcom-iconbox-kiri {
+		justify-content: center;
+	}
+	.col, .col-6 {
+		padding: 0 20% !important;
+	}
+	.col .bd-iconbox-text {
+		padding: 0 7%;
+	}
+}
+
+@media (max-width: 648px) {
+	.bdbanner-halus-badge {
+		display: block;
+		margin: -5px auto 7px;
+		max-width: 100px;
+	}
+	.bdbanner-halus-link {
+		padding: 5px 5px 10px;
+	}
+	.bdkolom-kelebihan {
+		padding: 0 5%;
+	}
+	.bdkelebihan {
+		padding: 0 0 18px;
+	}
+	.bdkonten-page, .bdkonten-img {
+		padding: 0 2%;
+		margin: 0 !important;
+	}
+	.bdmain-header {
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+	.bdmain-header .display-4 {
+		font-size: 2.2rem;
+	}
+	.bdlogo-sub {
+		padding: 10% 0 2%;
+	}
+	.bdkonsultasi p {
+		font-size: .959rem;
+	}
+	.bdkonsultasi h4 {
+		font-size: 1.4rem;
+	    line-height: 1.2 !important;
+	    margin-top: 15px;
+	}
+	.bdsub-header-wrapper h1 {
+		font-size: 2rem !important;
+	}
+	.bdsub-header-wrapper h6 {
+		margin-bottom: 30px !important;
+		margin-top: 10px;
+		font-size: .7rem;
+	}
+	.btn-ganal-lb-dikit {
+		padding: 12px 35px !important;
+	}
+	.bdqoute-wrapper h4 {
+		font-size: .959rem;
+	}
+	.bdqoute-wrapper p {
+		font-size: .659rem;
+	}
+	.bdqoute {
+		padding: 10% 5%;
+	}
+	.bdqoute-wrapper img {
+		height: 30px;
+	}
+	.bdharga-wrapper {
+		width: 70%;
+		margin-bottom: 30px;
+	}
+	.bdharga-judul h2 {
+		margin-top: 10px;
+		font-size: 1.4rem;
+	}
+	.bdharga {
+		margin-bottom: -40px;
+	}
+	.bdkolom-perbedaan {
+		justify-content: center;
+	}
+	.bdkolom-perbedaan-wrapper {
+		width: 60%;
+		padding: 0 30px;
+		margin-bottom: 30px;
+	}
+	.bdprogress {
+		padding: 0;
+		margin-top: 10px;
+	}
+	.bdprogress-bar {
+		margin: 0 10px;
+		height: 70px;
+	}
+	.mt-min {
+		margin-top: -30px !important;
+	}
+	.bd-list {
+		padding: 4% 16%;
+	}
+	.btn-lebar-ganal {
+		width: 70%;
+	}
+	.bdmain-header-klien-wrapper {
+		width: 480px;
+	}
+	.bdmain-header-klien-wrapper h1 {
+		font-size: 1.7rem;
+		margin-bottom: 30px !important;
+	}
+	.bdmain-header-klien-wrapper .h6 {
+		font-size: 1rem;
+	}
+	.bdmasking-kiri, .bdmasking-kanan {
+		margin: 0;
+	}
+	.bdmasking-kiri {
+		margin-bottom: 30px;
+	}
+	.bdmasking-kanan, .bdmasking-bawah {
+		padding: 20px;
+	}
+	.bdlogo-quote .col-2 {
+		-ms-flex: 0 0 40% !important;
+		flex: 0 0 40% !important;
+		max-width: 40% !important;
+	}
+	.sub-klien-header-kanan {
+		padding: 7% 5%;
+	}
+	.sub-klien-header-kanan h2 {
+		font-size: 1.9rem !important;
+	}
+	.sub-klien-isi {
+		padding: 0 2% 5%;
+	}
+	p.quote-bergambar-text {
+		text-align: center;
+		font-size: 1.3rem !important;
+	}
+	.sub-klien-isi h4 {
+		margin-top: 30px;
+	}
+	.sub-klien-isi img {
+		margin-bottom: 30px;
+	}
+	.bdjudul-text h6 {
+		font-size: .8rem;
+	}
+	.bdpage-text p {
+		font-size: 1rem;
+	}
+	.bdjudul-text {
+		margin: 30px 0;
+	}
+	.bdkolom-standart .h2sukses {
+		font-size: 2.5rem;
+	}
+}
+
+@media (max-width: 550px) {
+	.bdkolom-kelebihan {
+		padding: 0 2%;
+	}
+	.bdtext-sedang {
+		font-size: 1.069rem !important;
+	}
+	.hline {
+		font-size: 1.209rem;
+	}
+	.bdmain-header .display-4 {
+		font-size: 1.9rem;
+	}
+	.bdmain-header h6 {
+		font-size: .809rem !important;
+	}
+	.bdlogo-sub {
+		padding: 12% 0 2%;
+	}
+	.bd-perbedaan h2 {
+		margin-top: 5px;
+		margin-bottom: 50px;
+		font-size: 1.7rem;
+	}
+	.bdkonsultasi-wrapper {
+	    padding: 2% 0 0;
+	}
+	.bdkonsultasi h4 {
+		margin-top: 20px;
+	}
+	.btn-ganal-dikit {
+		padding: 14px 30px !important;
+	}
+	.bdkonsultasi-wrapper {
+		margin-bottom: 0;
+		padding: 0 7px;
+	}
+	.bdsub-header-wrapper h1 {
+		font-size: 1.7rem !important;
+	}
+	.bdqoute-wrapper h4 {
+		font-size: .949rem;
+	}
+	.btn-block {
+		padding: 12px 0 !important;
+	}
+	.bdotcom-iconbox-wrapper {
+		width: 90%;
+		margin-bottom: 30px;
+	}
+	.bdotcom-iconbox-kiri {
+		margin-bottom: -50px !important;
+	}
+	.bdharga-wrapper {
+		width: 90%;
+		margin-bottom: 30px;
+	}
+	.bdkolom-perbedaan-wrapper {
+		width: 90%;
+		padding: 0 30px;
+	}
+	.bd-list {
+		padding: 4% 7%;
+	}
+	.btn-lebar-ganal {
+		width: 90%;
+	}
+	.bdmain-header-klien-wrapper {
+		width: 95%;
+	}
+	.bdmain-header-klien-wrapper h1 {
+		font-size: 1.4rem;
+	}
+	.bdmain-header-klien-wrapper .h6 {
+		font-size: .9rem;
+	}
+	.col, .col-6 {
+		padding: 0 14% !important;
+	}
+	.bdlogo-quote .col-2 {
+		-ms-flex: 0 0 44% !important;
+		flex: 0 0 44% !important;
+		max-width: 44% !important;
+		margin: 0 10px 30px;
+	}
+	.sub-klien-header-kanan {
+		padding: 7% 2%;
+	}
+	.sub-klien-konten .col-xl-8 {
+		margin-top: -10px;
+	}
+	.bdkolom-standart .psukses {
+		margin-bottom: 15%;
+	}
+}
+
+@media (max-width: 460px) {
+	.col, .col-6 {
+		padding: 0 7% !important;
+	}
+	.bd-mt-5 {
+		margin-top: -20px !important
+	}
+	.bdkolom-standart .h2sukses {
+		font-size: 2.2rem;
+	}
+	.bdkolom-standart .psukses {
+		width: 97%;
+	}
+	.bd-padding5m .lead {
+		font-size: 1.15rem;
+	}
+	.text-animasi {
+		font-size: 2.59rem;
+	}
+	.bdbanner-halus-link {
+		margin: 0 .5rem;
+	}
+}
+
+@media (max-width: 414px) {
+	.bdkolom-kelebihan .px-5 {
+		padding-left: 0!important;
+		padding-right: 0!important;
+	}
+	.bdjudul-logo {
+		font-size: 1.259rem !important;
+	}
+	.bdmain-header .display-4 {
+		font-size: 1.6rem;
+	}
+	.bdlogo-sub {
+		padding: 14% 0 0;
+	}
+	.bdkonsultasi p {
+		font-size: .859rem;
+	}
+	.bdkonsultasi h4 {
+		font-size: 1.2rem;
+	}
+	.bdkonsultasi-wrapper {
+		margin-bottom: -20px;
+	}
+	.bdsub-header-wrapper h1 {
+		font-size: 1.5rem !important;
+	}
+	.bdqoute-wrapper h4 {
+		font-size: .929rem;
+	}
+	.bdotcom-iconbox-wrapper {
+		width: 98%;
+		padding: 0 10px !important;
+	}
+	.bdotcom-iconbox-judul {
+		font-size: 1.2rem !important;
+	}
+	.bdharga-wrapper {
+		width: 95%;
+	}
+	.bdharga-judul {
+		margin-top: 20px;
+	}
+	.bdkolom-perbedaan-wrapper {
+		width: 95%;
+	}
+	.bd-perbedaan {
+		margin-bottom: -70px;
+	}
+	.btn-lebar-ganal {
+		width: 95%;
+	}
+	.bdmain-header-klien-wrapper h1 {
+		font-size: 1.2rem;
+	}
+	.bdmain-header-klien {
+		height: 300px;
+	}
+	.bdfloating-logo-img {
+		animation: none;
+		box-shadow: none;
+		margin-bottom: 10px !important;
+	}
+	.bdfloating-logo {
+		margin-top: 25px;
+	}
+	.bdmain-header-klien-wrapper h1 {
+		padding-top: 50px;
+	}
+	.pb-bd2 {
+		margin-top: 200px;
+	}
+	.bdmasking-kanan, .bdmasking-bawah {
+		padding: 9px;
+	}
+	.bdmasking-bawah h6, .bdmasking-bawah p {
+		font-size: .9rem !important;
+	}
+	.bdmasking-kanan .h4 {
+		font-size: 1.4rem;
+		line-height: 1.4 !important;
+	}
+	.bdmasking-kanan p {
+		font-size: 1rem;
+	}
+	.bdlogo-quote .col-2 {
+		-ms-flex: 0 0 60% !important;
+		flex: 0 0 60% !important;
+		max-width: 60% !important;
+	}
+	.bdlogo-quote {
+		padding: 10% 0 15%;
+	}
+	.bdlogo-quote h2 {
+		font-size: 1.4rem;
+	}
+	p.bdkonsultasi-deskripsi {
+		padding-right: 2%;
+		margin: 15px 0;
+	}
+	h2.bdkonsultasi-halus {
+		font-size: 1.5rem !important;
+	}
+	.bdblog-posts-box {
+		padding: 17px 25px 30px;
+	}
+	.sub-klien-header-kanan h2 {
+		font-size: 1.5rem !important;
+	}
+	.sub-klien-header-kanan {
+		padding: 10% 2% 6%;
+	}
+	.quote-bergambar-attr p {
+		font-size: .8rem;
+	}
+	p.quote-bergambar-text {
+		font-size: 1.2rem !important;
+	}
+	.bdpage-text h1 {
+		font-size: 2rem;
+		font-weight: 600 !important;
+	}
+	.bdpage-text p {
+		font-size: .9rem;
+	}
+	.bd-alert {
+		font-size: .758rem;
+	}
+}
+
+@media (max-width: 403px) {
+	.pb-bd2 {
+		margin-top: 290px;
+	}
+	.sub-klien-konten .col-xl-8 h5, .ujar {
+		font-size: 1rem;
+	}
+	.bd-padding5m .lead {
+		font-size: .989rem;
+	}
+}
+
+@media (max-width: 360px) {
+	.bdsub-header-wrapper h1 {
+		font-size: 1.319rem !important;
+	}
+	.bdqoute-wrapper h4 {
+		font-size: .909rem;
+	}
+	.bdkolom-perbedaan-wrapper {
+		width: 100%;
+	}
+}
+
+@media (max-width: 350px) {
+	.text-animasi {
+		font-size: 35px !important;
+	}
+	.lead {
+		font-size: .95rem !important;
+	}
+	.bdlogo-sub {
+		padding: 18% 0 0;
+	}
+	.bdkonsultasi p {
+		font-size: .759rem;
+	}
+	.bdkonsultasi h4 {
+		font-size: 1rem;
+	}
+	.bdmain-header-klien-wrapper {
+		text-align: left;
+	}
+	.bdmasking-bawah h6, .bdmasking-bawah p {
+		font-size: .805rem !important;
+	}
+	.bdmasking-kanan .h4 {
+		font-size: 1rem;
+		line-height: 1.4 !important;
+	}
+	.bdmasking-kanan p {
+		font-size: .9rem;
+	}
+	a.bdmasking-link {
+		font-size: .69rem;
+	}
+	.bdlogo-quote {
+		padding: 12% 0 17%;
+	}
+	h2.bdkonsultasi-halus {
+		font-size: 1.3rem !important;
+	}
+	.bdblog-posts-box {
+		padding: 17px 15px 30px;
+	}
+	.sub-klien-konten-testi-attr, .quote-bergambar-attr p {
+		font-size: .65rem;
+	}
+	p.quote-bergambar-text {
+		font-size: 1.1rem !important;
+	}
+	.container, .col-xl-6 {
+		padding-right: 2px !important;
+		padding-left: 2px !important;
+	}
+	.bd-padding5m {
+		padding: 2px;
+	}
+}
+
+
+@media (max-width: 345px) {
+	.bdfloating-logo-img {
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+	}
+	.bdfloating-logo {
+		margin-top: 0px;
+	}
+}
+

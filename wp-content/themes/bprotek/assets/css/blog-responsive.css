@@ -1,0 +1,574 @@
+@media (max-width: 1300px) {
+	.bdfloating-shared-icon {	
+		top: 39%;
+	}
+}
+
+
+@media (max-width: 1280px) {
+	.bdblog-sticky-tulisan-depan {
+		padding: 3% 4% 0 0;
+	}
+}
+
+@media (max-width: 1230px) {
+	.bdblog-sticky-tulisan-depan {
+		padding: 3% 2% 0;
+		width: 80%;
+	}
+	.recent-post-ganal, .bd-blog-berlangganan, .recent-post-kecil {
+		margin: 0 2%;
+	}
+	.recent-blog-bawah .post-meta-thumb img {
+		max-height: 420px;
+		height: 100%;
+	}
+	.recent-post-kecil {
+		width: 1172px;
+	}
+	.bd-blog-berlangganan {
+		margin-bottom: 50px;
+		margin-top: 50px;
+	}
+	.bdpopular-post-wrapper, .bd-related-posts-title {
+		margin: 0 2%;
+		width: auto;
+	}
+	.blog-konsultasi-center {
+		padding: 7% 20%;
+	}
+	.bdblog-single .recent-post-ganal {
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.recent-post-kecil {
+		margin: 0 !important;
+		padding-left: 24px;
+		width: unset;
+		padding-right: 5px;
+	}
+	.recent-blog-bawah-kecil .post-meta-thumb img {
+		max-height: 280px;
+		height: 100%;
+	}
+	.bd-header-kategori .kategori-top {
+		margin-top: -1px;
+	}
+	.bdblog-single .post-meta-thumb img {
+		max-height: 500px;
+		height: 100%;
+	}
+}
+
+@media (max-width: 1070px) {
+	.bdblog-form input[type="email"] {
+		width: 315px;
+	}
+	.recent-post-kecil {
+		padding-left: 20px;
+		padding-right: 0;
+	}
+	.blog-konsultasi-center {
+		padding: 7% 15%;
+	}
+	.bd-header-kategori .kategori-top {
+		margin-top: -25px;
+	}
+	.bdblog-single {
+		top: 30px;
+	}
+	.bdpopular-post-wrapper {
+		margin-top: 30px;
+	}
+}
+
+@media (max-width: 990px) {
+	.kategori-top-wrapper {
+		display: none;
+	}
+	.bdblog-sticky-depan img {
+		height: 100%;
+		max-height: 500px;
+		margin-top: 100px;
+	}
+	.bdblog-sticky-tulisan-depan {
+		width: 90%;
+	}
+	.judul-blog-recent h4 {
+		font-size: 1.4rem;
+	}
+	.h4-blog-berlangganan {
+		font-size: 1.2rem;
+	}
+	.recent-post-kecil {
+		padding-left: 18px;
+	}
+	.bdblog-single {
+		top: -30px;
+	}
+	.post-single-wrapper .post-container {
+		padding: 5% 3% 3%;
+	}
+	.judul-blog-recent h1 {
+		font-size: 2.3rem;
+	}
+	.bdblog-single .post-meta-thumb {
+		margin-bottom: -115px;
+	}
+	figure.wp-block-pullquote.alignleft.is-style-solid-color {
+		max-width: 100%;
+		float: unset;
+		margin-left: 0;
+		margin-right: 50px;
+		margin-top: -50px;
+		margin-bottom: 30px;
+	}
+	.wp-block-pullquote.is-style-solid-color blockquote p {
+		font-size: 2.3rem;
+	}
+	.bdfloating-shared-icon {
+		top: 26%;
+	}
+	.bdblog-single {
+		margin-bottom: -20px;
+	}
+	.bdpopular-post {
+		margin-top: 30px;
+	}
+	.jarak-atas-dikit {
+		top: 30px;
+	}
+	.bdmargin-min-konsultasi {
+		margin-top: -10%;
+	}
+}
+
+@media (max-width: 900px) {
+	.judul-blog-recent h4 {
+		font-size: 1.2rem;
+	}
+	.h4-blog-berlangganan {
+		font-size: 1.4rem;
+	}
+	.bdblog-berlangganan-wrapper {
+		padding: 5% 2%;
+	}
+	.bdblog-form-berlangganan-wrapper {
+		display: flex;
+		justify-content: flex-end;
+	}
+	.bdblog-form .mailster-form .submit-button {
+		margin-right: 0;
+		margin-top: -3.23rem;
+	}
+	.bdblog-form input[type="email"] {
+		width: 340px;
+	}
+	.blog-konsultasi-center {
+		padding: 7% 2%;
+	}
+	.judul-blog-recent h5 {
+		font-size: 1rem;
+	}
+}
+
+@media (max-width: 767px) {
+	.bdblog-sticky-tulisan-depan {
+		width: 98%;
+		margin-right: auto;
+		margin-left: auto;
+		border-radius: 2px;
+	}
+	.bdblog-sticky-tulisan-depan {
+		margin-top: -140px;
+		margin-bottom: 20px;
+	}
+	.post-meta-satu, .post-meta-satu a {
+		font-size: .7rem;
+	}
+	.judul-blog-sticky h2 {
+		font-size: 1.5rem;
+	}
+	.p-blog-depan p {
+		display: none;
+	}
+	.recent-blog-bawah {
+		padding: 20px 0;
+		flex: 0 0 100%;
+		width: 100%;
+		margin-top: -45px;
+		margin-bottom: 30px;
+	}
+	.recent-post-ganal {
+		justify-content: center;
+	}
+	.post-wrapper {
+		display: flex !important;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.post-meta-dua, .post-meta-dua a {
+		display: block;
+	}
+	.recent-blog-bawah .post-meta-thumb img {
+		height: 100%;
+		width: 100%;
+	}
+	.bdblog-kolom-berlangganan {
+		flex-direction: column;
+	}
+	.bdblog-title-berlangganan, .bdblog-form-berlangganan-wrapper {
+		width: 100%;
+	}
+	.h4-blog-berlangganan {
+		text-align: center;
+		margin-bottom: 20px;
+		padding-bottom: 10px;
+	}
+	.h4-blog-berlangganan .judul-blog-recent h5, .bdpopular-post .judul-blog-recent h4 {
+		font-size: 1.3rem;
+	}
+	.bdblog-form-berlangganan-wrapper {
+		justify-content: center;
+		flex-direction: column;
+	}
+	.bdblog-form input[type="email"] {
+		width: 100%;
+	}
+	.bdblog-form .mailster-form .submit-button {
+		float: unset !important;
+		display: unset !important;
+		width: 100%;
+		margin: 10px 0;
+		font-size: .9rem;
+	}
+	.p-blog-form-berlangganan {
+		font-size: 1rem;
+		margin-top: -10px;
+		text-align: center;
+	}
+	.bdblog-berlangganan-wrapper {
+		padding: 4% 2% 1%;
+	}
+	.mailster-form-1 .mailster-email-wrapper label {
+		font-size: 1rem;
+	}
+	.recent-blog-bawah-kecil {
+		width: 100%;
+		flex: 0 0 100%;
+		-ms-flex: 0 0 100%;
+	}
+	.recent-blog-bawah-kecil .post-meta-thumb img {
+		max-height: 100%;
+		height: 100%;
+		width: 100%;
+	}
+	.recent-post-kecil {
+		padding-left: 0;
+		margin: 0 2% !important;
+	}
+	.recent-blog-bawah-kecil .post-wrapper {
+		padding-right: 0;
+		margin-bottom: -10px;
+	}
+	.bd-blog-berlangganan {
+		margin-top: 20px;
+	}
+	.bd-related-posts-title {
+		margin-top: 20px;
+	}
+	.bd-related-posts-title h3 {
+		padding: 30px 0;
+		text-align: center;
+		margin: 0;
+		font-size: 1.6rem;
+	}
+	.bd-related-posts-title {
+		margin: 0;
+	}
+	.bdpopular-post li {
+		padding-right: 0;
+	    flex: 0 0 100%;
+		-ms-flex: 0 0 100%;
+		width: 100%;
+		margin-top: 20px;
+		margin-bottom: 15px;
+	}
+	.blog-konsultasi-center .btn-lebar-ganal {
+		width: 100%;
+	}
+	.post-single-wrapper {
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+		margin-left: 0;
+	}
+	.bdblog-single .post-meta-satu, .bdblog-single .post-meta-satu a {
+		font-size: 1rem;
+	}
+	.judul-blog-recent h1 {
+		font-size: 1.6rem;
+	}
+	.bdfloating-shared-icon {
+		visibility: hidden;
+	}
+	.bd-author-signature {
+		flex-direction: column;
+	}
+	.author-signature-meta {
+		text-align: center;
+	}
+	.bd-author-signature-avatar {
+		margin-bottom: -20px;
+	}
+	.bd-author-signature-avatar img {
+		max-width: 150px;
+		max-height: 150px;
+		width: 100%;
+		height: 100%;
+	}
+	.post-single-wrapper .post-container {
+		padding: 5% 2% 3%;
+	}
+	.bd-author-signature-avatar figure {
+		margin-right: 0;
+	}
+	.author-signature-meta {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.judul-blog-recent h1 {
+		margin-bottom: 5px;
+		margin-top: 5px;
+	}
+	.bdblog-single-tengah .post-meta-dua, .post-meta-dua a {
+		font-size: .89rem !important;
+	}
+	.bd-related-posts-title {
+		margin-bottom: 50px;
+	}
+	.bdpopular-post-wrapper {
+		margin-top: -50px;
+	}
+	.recent-post-single .judul-blog-recent {
+		padding: 0 !important;
+	}
+	.bdblog-single .bd-related-posts-title {
+		margin-top: -30px;
+	}
+	.bd-author {
+		max-width: 100%;
+		width: 80%;
+	}
+	.bd-author h1.author {
+		font-size: 2rem;
+		margin-top: 30px;
+	}
+	.bdmargin-min-konsultasi {
+		margin-top: -15%;
+	}
+	.judul-blog-recent h5 {
+		font-size: 1.2rem;
+	}
+	.bd-author-signature {
+		padding-bottom: 50px;
+	}
+	.jarak-kecil-dikitaja {
+		margin-bottom: -10px !important;
+	}
+	.kadadapat-h1, .dapat-h1 {
+		margin: 1% 0 10%;
+	}
+	.bdblog-single .recent-blog-bawah {
+		margin-bottom: 50px;
+	}
+	.is-style-default {
+		border-left: none;
+		margin: 40px 0;
+		display: block;
+		padding-left: 15px;
+		border-top: 1px solid;
+		border-bottom: 1px solid;
+		border-color: #cccccc;
+		padding: 20px 5px;
+	}
+	.is-style-default cite {
+		margin-bottom: 0;
+	}
+}
+
+
+@media (max-width: 680px) {
+	.judul-blog-sticky h2, .judul-blog-recent h4, .bdpopular-post .judul-blog-recent h4 {
+		font-size: 1.3rem;
+	}
+	.bdblog-sticky-tulisan-depan, .recent-post-ganal {
+		padding: 1% 2%;
+	}
+	.recent-post-ganal {
+		margin: 0;
+	}
+	.bd-blog-berlangganan {
+		margin-top: 0;
+	}
+}
+
+@media (max-width: 648px) {
+	.recent-blog-bawah {
+		margin-top: -70px;
+		margin-bottom: 60px;
+	}
+	.bdpopular-post .judul-blog-recent h4 {
+		font-size: 1.1rem;
+		line-height: 1.4 !important;
+	}
+	.blog-konsultasi-center h2 {
+		font-size: 1.7rem;
+	}
+	.p-blog-konsultasi {
+		font-size: 1.1rem;
+	}
+	.blog-konsultasi-center h2 {
+		font-size: 1.5rem;
+	}
+	.bdblog-single .post-meta-thumb {
+		margin-top: 15px;
+	}
+	.kembali-blog {
+		padding-bottom: 30px;
+	}
+	.bd-author {
+		width: 98%;
+	}
+	.bdmargin-min-konsultasi {
+		margin-top: -130px;
+	}
+	.jarak-kecil-bawah {
+		margin-bottom: 30px !important;
+	}
+	.jarak-kecil-dikitaja {
+		margin-bottom: -50px !important;
+	}
+}
+
+@media (max-width: 550px) {
+	.judul-blog-sticky h2, .judul-blog-recent h4, .judul-blog-recent h5 {
+		font-size: 1.2rem;
+		line-height: 1.2 !important;
+	}
+	.bdblog-sticky-tulisan-depan {
+		margin-top: -50px;
+	}
+	.post-meta-dua, .post-meta-dua a {
+		font-size: .69rem;
+	}
+	.bdblog-sticky-depan img {
+		position: relative;
+		z-index: 1;
+	}
+	img.bdblog-logo {
+		position: relative;
+		z-index: 0;
+		max-height: 150px;
+		top: 65px;
+	}
+	.bdblog-berlangganan-wrapper {
+		padding: 10% 2% 3%;
+	}
+	.post-single-wrapper .post-container {
+		padding: 7% 3% 5%;
+		top: 70px;
+	}
+	.bdblog-single .post-meta-thumb {
+		margin-bottom: -115px;
+		margin-top: 15px;
+	}
+	.bd-author-signature {
+		margin-bottom: 20px;
+	}
+	.h1-miring {
+		font-size: 2.5rem;
+	}
+	.is-style-default p {
+		font-size: 1rem !important;
+	}
+	.is-style-default cite {
+		font-size: .8rem;
+	}
+}
+
+@media (max-width: 414px) {
+	.bdblog-sticky-tulisan-depan, .recent-post-ganal {
+		padding: 1% 2% 0;
+	}
+	.p-blog-form-berlangganan, .mailster-form-1 .mailster-email-wrapper label {
+		font-size: .9rem;
+	}
+	.h4-blog-berlangganan {
+		margin-bottom: 30px;
+	}
+	.bdpopular-post li {
+		padding-right: 10px;
+		margin-bottom: 15px;
+		margin-top: 0;
+	}
+	.bdblog-single .bdpopular-post li {
+		margin-top: 20px;
+	}
+	.blog-konsultasi-center h2 {
+		font-size: 1.4rem;
+	}
+	.p-blog-konsultasi {
+		font-size: 1rem;
+	}
+	.blog-konsultasi-center {
+		padding: 9% 2% 7%;
+	}
+	.bdblog-single .post-meta-satu, .bdblog-single .post-meta-satu a {
+		font-size: .9rem;
+	}
+	.judul-blog-recent h1 {
+		font-size: 1.5rem;
+	}
+	.bdblog-single .recent-blog-bawah {
+		margin-top: -70px;
+	}
+	.bdblog-single .post-wrapper {
+		margin-bottom: 20px;
+	}
+	.bdpopular-post-wrapper {
+		margin-top: -40px;
+	}
+	.bdblog-berlangganan-wrapper {
+		padding: 14% 2% 5%;
+	}
+	.recent-post-single .bd-related-posts-title {
+		margin-top: -60px;
+	}
+	.author-signature-meta .deskripsi {
+		font-size: .8rem;
+	}
+	.jarak-kecil-dikitaja {
+		margin-bottom: -40px !important;
+	}
+	.bdblog-single .recent-blog-bawah {
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 350px) {
+	.blog-konsultasi-center h2 {
+		font-size: 1.2rem;
+	}
+	.p-blog-konsultasi {
+		font-size: .92rem;
+	}
+	.judul-blog-recent h1 {
+		font-size: 1.3rem;
+	}
+}
+
+
+

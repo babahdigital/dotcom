@@ -1,0 +1,1045 @@
+.bdblog-header-depan {
+	display: block;
+	margin: 0 auto;
+    text-align: center;
+}
+
+.bdblog-logo {
+    position: relative;
+    top: 50px;
+}
+
+.kategori-top-wrapper {
+    width: 100%;
+    margin-bottom: 50px;
+	margin-top: 30px;
+}
+
+.bdblog-home-page {
+    position: relative;
+    z-index: 0;
+}
+
+.bd-blog {
+    position: relative;
+    top: 120px;
+	margin-bottom: 170px !important;
+}
+
+.kembali-blog {
+    margin: 1% 0 1%;
+}
+
+.kembali-blog a, .kadadapat-bawah a {
+    color: #1a82e2;
+}
+
+.kadadapat-bawah {
+	font-size: 1.2rem
+}
+
+.kembali-blog a {
+	font-size: 1.059rem;
+	font-weight: 500;
+}
+
+#kadadapat {
+	margin-bottom: 20%;
+}
+
+.kadadapat-h1, .dapat-h1 {
+    margin: 1% 0 5%;
+}
+
+.h1-miring {
+    font-style: italic;
+    font-size: 3.5rem;
+}
+
+.kategori-top {
+    font-size: .899rem;
+    text-align: left;
+    background-color: #fbfbfc;
+    border-top: 1px solid #e9ecef;
+    border-bottom: 1px solid #e9ecef;
+	margin: 0 auto;
+}
+
+.kategori-list {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+	margin: 20px 0;
+}
+
+.kategori-top li {
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: auto;
+    padding: 12px;
+    line-height: 1rem;
+    list-style: none;
+    display: inline-block;
+    margin-top: 12px;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.kategori-list li.cat-item {
+	margin: 0 25px;
+	padding: 0;
+}
+
+.kategori-top-wrapper li a {
+    display: block;
+    color: #7f90a0 !important;
+	font-weight: 500;
+    letter-spacing: -0.01rem;
+    font-size: .859rem;
+}
+
+.kategori-top-wrapper li a:active, .aktif-pertama, .kategori-top-wrapper li a:hover  {
+    color: #1a82e2 !important;
+}
+
+.bd-header-kategori {
+	margin-top: 109px;
+}
+
+.bd-header-kategori .kategori-top {
+    position: fixed;
+    width: 100%;
+	z-index: 11;
+	max-width: 1600px;
+	overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+	margin-top: -12px;
+}
+
+
+/*Style Pencarian*/
+.cari-tombol .bd-svg:hover {
+	cursor: pointer;
+}
+
+.popup-box-on {
+    display: block !important;
+}
+
+.off {
+    display: none;
+}
+
+#cari {
+    position: relative;
+	left: -5px;
+}
+
+#search.open {
+    opacity: 1;
+    transform: translate(0px, 0px) scale(1, 1);
+}
+
+#search {
+    background-color: rgba(41,70,97,.9);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    transition: all 0.5s ease-in-out 0s;
+    width: 100%;
+    z-index: 2000;
+    
+}
+
+#search .close {
+    color: #FFF;
+    font-size: 80px;
+    opacity: .5;
+    padding: 10px 17px;
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    font-weight: 100;
+    font-family: inherit;
+	outline: none;
+}
+
+button.close {
+    background: transparent none repeat scroll 0 0;
+    border: 0 none;
+    cursor: pointer;
+}
+.close {
+    float: right;
+    font-weight: bold;
+    line-height: 1;
+    text-shadow: 0 1px 0 #fff;
+}
+
+#search input[type="search"] {
+	background: none;
+    border: 0 none;
+    color: hsla(0,0%,100%,.8);
+	font-size: 3.699rem;
+    font-weight: 500;
+    padding-left: 5px;
+    padding-right: 60px;
+    text-align: center;
+    top: 0;
+    max-width: 520px;
+    border-bottom: 2px solid #fff;
+    font-family: 'Colfax',helvetica,sans-serif;
+    font-style: italic;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    padding-bottom: 0;
+	text-align: left;
+    text-indent: 6px;
+	height: 3.95rem;
+	text-transform: lowercase;
+	opacity: 1;
+}
+
+#search input[type="search"]:active {
+	background: none !important;
+	color: hsla(0,0%,100%,.8) !important;
+	width: 520px !important;
+}
+
+.cari-tombol {
+	background: none;
+    border: none;
+    width: 50px;
+    position: relative;
+	left: -60px;
+	outline: none;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    outline: none;
+}
+
+.wrapper-cari {
+	position: absolute;
+    left: 0;
+    right: 0;
+    top: 40%;
+    bottom: 0;
+    margin: auto;
+	margin-left: 50px;
+    display: block;
+}
+
+.colume-cari {
+	margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-end;
+	display: flex;
+}
+
+.colume-cari li {
+    display: inline-block;
+}
+
+#search .btn {
+    left: 50%;
+    margin-top: 60px;
+    padding: 10px 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%);
+}
+
+#s::-webkit-input-placeholder {
+    color: hsla(0,0%,100%,.8);
+	font-size: 3.699rem !important;
+    font-weight: 500;
+    font-weight: 500;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+    font-style: italic;
+	opacity: .6;
+	}
+#s::-moz-placeholder {
+    color: hsla(0,0%,100%,.8);
+	font-size: 3.799rem !important;
+    font-weight: 500;
+	font-style: italic;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	opacity: .6;
+	}
+#s::-ms-placeholder {
+    color: hsla(0,0%,100%,.8);
+	font-size: 3.699rem !important;
+    font-weight: 500;
+	font-style: italic;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	opacity: .6;
+	}
+#s::placeholder {
+    color: hsla(0,0%,100%,.8);
+	font-size: 3.699rem !important;
+    font-weight: 500;
+	font-style: italic;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	opacity: .6;
+	}
+#s input:focus::-webkit-input-placeholder {
+	color: transparent!important;
+	}
+#s input:focus::-moz-placeholder {
+	color: transparent!important;
+	}
+#s input:focus::-ms-placeholder {
+	color: transparent!important;
+	}
+#s input:focus::placeholder {
+	color: transparent!important;
+	}
+
+.s-icon {
+    margin-left: 0 !important;
+	top: -2px;
+    position: relative;
+    left: 10px;
+}
+
+.bdblog-single {
+    position: relative;
+    top: 50px;
+	margin-bottom: 150px;
+}
+
+.post-single-wrapper {
+    -ms-flex: 0 0 83.33333%;
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%;
+	margin-left: 8.33333%;
+}
+
+.post-container {
+    position: relative;
+    z-index: 10;
+    padding: 2.813rem 6.328rem 1.875rem;
+    background: #fff;
+	margin-bottom: 50px;
+}
+
+.bdblog-single .post-meta-thumb {
+	margin-bottom: -20%;
+}
+
+.bdblog-single-divider {
+	width: 30px;
+    height: 3px;
+    background: #a3cdf3;
+    margin: 2rem auto;
+}
+
+.bdblog-single-tengah {
+	text-align: center;
+}
+
+.judul-blog-recent h1 {
+	font-style: italic;
+	color: #182838;
+    font-weight: 500 !important;
+    line-height: 1.3 !important;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.bdblog-single .post-meta-satu, .bdblog-single .post-meta-satu a {
+    margin-top: -5px;
+}
+
+.post-container article, article.post-item-single, article.post-item-single p {
+    font-family: 'Bookmania' !important;
+	font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	font-size: 1.19rem;
+	line-height: 1.6;
+	margin-bottom: 25px;
+}
+
+
+article.post-item-single h4 {
+	font-weight: 500;
+}
+
+.grid-line {
+    max-width: 100%;
+    margin: 4rem auto 3rem;
+    border: 0;
+    border-top: 1px solid #e9ecef;
+    border-bottom: 1px solid #fff;
+}
+
+
+.bd-author-signature-avatar img {
+    display: inline-block;
+    -ms-interpolation-mode: bicubic;
+	width: 78px;
+    height: 78px;
+	border-radius: 100%;
+    margin-top: -2px;
+}
+
+.bd-author-signature-avatar {
+    flex: 0 0 auto;
+    max-width: 100%;
+}
+
+.bd-author-signature {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap
+}
+
+.bd-author-signature-avatar figure {
+    margin: 0;
+    margin-right: 20px;
+}
+
+.author-signature-meta cite, .author-signature-meta cite a {
+    display: block;
+    font-size: .979rem;
+    font-weight: 500;
+	color: #182838 !important;
+	font-style: normal;
+    letter-spacing: -.01rem;
+}
+
+.author-signature-meta cite a:hover {
+	color: #182838 !important;
+}
+
+.author-signature-meta {
+    flex: 1 1 0px;
+    padding-right: .9375rem;
+    padding-left: .9375rem;
+    min-width: 0;
+}
+
+.author-signature-meta .deskripsi {
+    font-size: .89rem;
+    line-height: 1.25rem;
+    font-family: 'Bookmania' !important;
+    letter-spacing: .01rem;
+}
+
+.recent-post-single .post-meta-satu, .recent-post-single .post-meta-satu a {
+    margin-top: 130px;
+}
+
+.bdblog-single .size-ganal:hover {
+	opacity: 1;
+}
+
+.bdblog-single h2, .bdblog-single h3, .bdblog-single h4 {
+    color: #182838;
+	font-weight: 500 !important;
+    letter-spacing: -0.039rem;
+	font-family: 'colfax' !important;
+	margin: 30px 0 20px;
+}
+
+
+#konten {
+	width: 100%;
+	max-width: 1200px;
+    margin: 0 auto 50px;
+}
+
+.bd-blog-depan {
+
+}
+
+.keep-smart {
+    margin-bottom: 50px;
+}
+
+.post-wrapper {
+	width: 100%;
+	display: grid;
+}
+
+.bdblog-sticky-depan {
+	display: flex;
+    justify-content: flex-end;
+	margin-top: -40px;
+}
+.bdblog-sticky-depan img {
+    height: 472px;
+    width: auto;
+	background-size: cover;
+}
+
+.bdblog-sticky-tulisan-depan {
+    background: #fff;
+	background-color: rgba(255,255,255,1);
+	width: 70%;
+    padding: 1rem 2.5rem 0 0;
+    margin-top: -230px;
+	text-align: left;
+	z-index: 1;
+}
+
+.post-meta-satu, .post-meta-satu a {
+	color: #a9b5c0 !important;
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.post-meta-satu a:hover {
+	color: #1a82e2 !important;
+}
+
+.judul-blog-sticky h2, .judul-blog-sticky h2 a, .judul-blog-recent h4, .judul-blog-recent h4 a {
+	color: #294661;
+	font-weight: 500 !important;
+}
+
+.post-meta-dua, .post-meta-dua a {
+	color: #546b81;
+	font-weight: normal;
+	font-size: .83rem;
+	margin-top: 10px;
+	display: inherit;
+}
+
+.judul-blog-sticky {
+	margin-bottom: 10px;
+	margin-top: 15px;
+}
+
+.judul-blog-sticky h2, .judul-blog-recent h4, .judul-blog-recent h5 {
+	display: inline;
+}
+
+.judul-blog-recent h4 {
+	font-size: 1.7rem;
+	line-height: 1.4 !important;
+}
+
+.judul-blog-sticky h2 a:hover, .recent-blog-bawah h4 a:hover, .judul-blog-recent h5 a:hover, .bdpopular-post .judul-blog-recent h4:hover {
+	color: #182838;
+}
+
+.judul-blog-sticky h2:hover, .recent-blog-bawah h4:hover, .judul-blog-recent h5:hover, .bdpopular-post .judul-blog-recent h4:hover {
+	box-shadow:inset 0 -.5em 0 #e8f2fc;
+	display: inline;
+}
+
+.p-blog-depan p {
+	font-family: 'Bookmania' !important;
+	font-size: 1.25rem;
+	font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	color: #465360;
+}
+
+.post-meta-kategori {
+    font-size: .859rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: 2px;
+}
+
+.post-meta-author, .post-meta-author a {
+	display: table;
+	margin: 0;
+	padding: 0;
+	text-transform: capitalize;
+	color: #546b81 !important;
+}
+
+.post-meta-author a:hover {
+	color: #1a82e2 !important;
+}
+
+.post-meta-author a:hover, .post-meta-kategori a:hover {
+	color: #1a82e2;
+}
+ 
+.recent-post-ganal {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.recent-blog-bawah {	
+    padding: 30px 0;
+    flex: 0 0 48%;
+    width: 48%;
+}
+
+
+.blog-konsultasi, .bd-blog-berlangganan {
+    background-image: url(/wp-content/themes/bdotcom/assets/img/background-paint.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+	margin: 20px 0;
+}
+
+.bdblog-berlangganan-wrapper {
+	padding: 3rem 3rem 2.5rem;
+}
+
+.bdblog-kolom-berlangganan {
+    display: flex;
+    width: 100%;
+	justify-content: space-between;
+    align-items: center;
+}
+
+.bdblog-title-berlangganan {
+	width: 50%;
+
+}
+
+.bdblog-form-berlangganan-wrapper {
+	width: 47%;
+}
+
+.bdblog-form .mailster-form .submit-button {
+    float: right;
+    margin-top: -3.25rem;
+    color: #fff;
+    background: #489be8;
+    display: block;
+    width: auto;
+    padding: 13px 25px;
+    border: 1px solid #489be8;
+    border-radius: 1px;
+    font-size: .795rem;
+    margin-right: 12px;
+}
+
+.bdblog-form .mailster-form .submit-button:hover {
+	background: #1a82e2;
+	border-color: #1a82e2;
+}
+
+
+.bdblog-form input[type="email"] {
+    width: 396px;
+    height: 45px;
+    line-height: 45px !important;
+	padding: 0 1rem;
+	border: 1px solid #ccc;
+}
+
+.bdblog-form input[type="email"]:focus {
+	border: 1px solid #489be8;
+    background: #fff !important;
+    height: 45px;
+    line-height: 45px !important;
+    outline: none;
+}
+
+.p-blog-form-berlangganan {
+	font-size: .859rem;
+    margin-top: -25px;
+    padding: 0;
+    font-weight: 300;
+}
+
+.mailster-form-1 .mailster-email-wrapper label{
+    display: block;
+	font-size: .859rem;
+	font-weight: 300;
+	margin-bottom: 0;
+}
+
+.h4-blog-berlangganan {
+	font-style: italic;
+    font-weight: 500;
+    text-transform: inherit;
+	font-size: 1.359rem;
+	margin-top: -5px;
+}
+
+.bdblog-form .mailster-form-info.error {
+    display: none;
+}
+
+.bdblog-form .mailster-form .error input {
+	border: 1px solid #bf4d4d;
+}
+
+.wp-post-image, .bd-overlay {
+    transition: opacity .4s;
+}
+
+.bd-overlay:hover {
+    background: #ffffff;
+	opacity: .8;
+}
+
+
+
+.mailster-form:before {
+/*     opacity: 1 !important;
+	visibility: visible !important; */
+	margin-left: -30px;
+    margin-top: 13px;
+}
+
+span.mailster-required {
+    border-radius: 50%;
+    height: 4px;
+    width: 4px;
+    position: absolute;
+    background: #bf4d4d;
+    top: 3px;
+    margin-left: 3px;
+    color: rgba(255, 255, 255, 0) !important;
+	font-size: 0 !important;
+}
+
+.recent-post-kecil {
+	display: flex;
+	margin-top: 50px;
+	flex-wrap: wrap;
+	flex-flow: row wrap;
+    width: 1220px;
+    justify-content: flex-start;
+}
+
+.recent-blog-bawah-kecil {
+    width: 33.33333%;
+    margin-bottom: 50px;
+    flex: 0 0 33.33333%;
+	-ms-flex: 0 0 33.33333%;
+}
+
+.recent-blog-bawah-kecil .post-wrapper {
+	padding-right: 20px;
+}
+
+.judul-blog-recent h5 {
+	color: #294661;
+	font-weight: 500 !important;
+	font-size: 1.259rem;
+	line-height: 1.4 !important;
+}
+
+.recent-blog-bawah-kecil .judul-blog-recent {
+    line-height: initial;
+}
+
+
+.bd-related-posts-title {
+	display: block;
+    width: 100%;
+    border-bottom: 1px solid #eaeaea;
+    border-top: 1px solid #eaeaea;
+    box-sizing: border-box;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.bd-related-posts-title h3 {
+    font-size: 2rem;
+    font-weight: 500 !important;
+    text-transform: capitalize;
+    font-style: italic;
+    padding: 40px 0;
+    margin: 0;
+	color: #182838;
+}
+
+.bdpopular-post-wrapper {
+    width: 1200px;
+}
+
+.bdpopular-post {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.bdpopular-post li {
+	flex: 0 0 31%;
+	-ms-flex: 0 0 31%;
+    width: 31%;
+    padding: 0;
+    margin-bottom: 30px;
+	padding-right: 30px;
+}
+
+.bdpopular-post .judul-blog-recent h4 {
+    font-size: 1.1rem;
+}
+
+.bdpopular-post .judul-blog-recent {
+	line-height: initial;
+}
+
+.blog-bottom-konsultasi {
+    -ms-flex-line-pack: center;
+    align-content: center;
+	text-align: center;
+}
+
+.blog-konsultasi-center {
+    text-align: center;
+	margin-top: 30px;
+    padding: 7% 25%;
+    margin-bottom: -70px;
+}
+
+.blog-konsultasi-center h2 {
+	font-size: 2.059rem;
+	font-weight: 500 !important;
+}
+
+.p-blog-konsultasi {
+    font-size: 1.249rem;
+    font-weight: 300;
+	margin: 30px 0;
+}
+
+.tombol-blog-konsultasi {
+    color: #fff;
+    background: #489be8;
+    margin-top: 4%;
+    display: block;
+    width: 15%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px 10px;
+    border: 1px solid #489be8;
+    border-radius: 3px;
+    font-size: .959rem;
+}
+
+.tombol-blog-konsultasi:hover, .blog-berlangganan .mailster-form .submit-button:hover {
+    color: #fff;
+	background: #1a82e2;
+}
+
+
+.jarak-atas-dikit {
+	position: relative;
+    top: 110px;
+	margin-bottom: 200px !important;
+}
+
+.jarak-kecil-bawah {
+	margin-bottom: 100px;
+}
+
+.arsip h1 {
+	color: #182838;
+	font-weight: 500;
+}
+
+
+
+.bd-author .bd-author-signature {
+    display: block;
+    -ms-flex-flow: unset;
+    flex-flow: unset;
+}
+
+.bd-author .bd-author-signature-avatar {
+    flex: unset;
+    max-width: 100%;
+}
+
+.halaman-author {
+
+}
+
+.bd-author .bd-author-signature-avatar img {
+    display: block;
+    vertical-align: middle;
+    -ms-interpolation-mode: bicubic;
+    width: 178px;
+    height: 178px;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+.bd-author h1.author {
+	color: #182838;
+    font-weight: 500 !important;
+    font-size: 2.859rem;
+	margin-top: 20px;
+}
+
+.bd-author {
+    max-width: 66.66667%;
+    margin: 0 auto;
+    width: 66.66667%;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.bdblog-single .judul-blog-recent {
+	padding: 5px 0;
+}
+
+.bdblog-single .bdpopular-post li .post-meta-satu, .bdblog-single .bdpopular-post li .post-meta-satu a {
+	margin-top: 0;
+}
+
+.size-sadang {
+	width: 100%;
+    height: 420px;
+}
+
+.size-halus {
+	width: 100%;
+	height: 275px;
+}
+
+.bdblog-sticky-depan .b-lazy {
+	width: 1100px;
+}
+
+.current-cat a {
+	color: #1a82e2 !important;
+}
+
+.h1-miring strong {
+	color: #294661;
+}
+
+.post-single-wrapper .post-meta-author {
+	text-align: center;
+	margin: 0 auto 3px;
+}
+
+.post-container ul {
+	display: block;
+    list-style-type: disc;
+    padding-inline-start: 40px;
+	margin-bottom: 40px;
+}
+
+.post-container ul li {
+	margin: 12px 0;
+}
+
+.post-container img {
+	margin: 0 auto 50px;
+    display: block;
+}
+
+.bdblog-single figure.wp-block-image img {
+	width: 100%;
+	height: 100%;
+}
+
+figure.wp-block-pullquote.alignleft.is-style-solid-color {
+    max-width: 80%;
+    float: left;
+    margin-left: -110px;
+    margin-right: 50px;
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+
+.wp-block-pullquote.is-style-solid-color blockquote p {
+    margin-bottom: 0;
+    font-size: 2.59rem;
+    font-weight: initial;
+    font-style: italic;
+    line-height: 1.4;
+	color: #182838;
+	font-family: 'Bookmania-it' !important;
+}
+
+blockquote {
+    border-left: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    display: inline;
+}
+
+.is-style-default {
+    border-left: inset;
+    margin: 40px 0;
+    display: block;
+    padding-left: 15px;
+}
+
+.is-style-default p {
+	font-size: 1.19rem !important;
+}
+
+.is-style-default cite {
+    margin-bottom: 30px;
+    display: block;
+	font-size: 1.1rem;
+}
+
+pre.wp-block-verse {
+    margin-top: 30px;
+}
+
+
+pre.wp-block-verse {
+    display: block;
+    padding: 15px;
+    font-size: .9rem;
+    line-height: 1.42857143;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 4px;
+}
+
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.bdfloating-shared-icon {
+	position: fixed;
+	top: 34%;
+	margin-left: 30px;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	z-index: 1;
+	display: none;
+}
+
+/* Style the icon bar links */
+.bdfloating-shared-icon a {
+	display: block;
+	text-align: center;
+	margin: 25px 0;
+	transition: all 0.3s ease;
+	color: white;
+	font-size: 20px;
+}
+
+.bdfloating-shared-icon svg {
+	width: 25px;
+	height: 25px;
+	color: initial;
+	opacity: .5;
+}

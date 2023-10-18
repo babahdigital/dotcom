@@ -1,0 +1,255 @@
+/* Style for major page */
+
+* {
+    outline: none;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    text-align: center;
+    background-color: #f8f9fb;
+    width: 100%;
+    position: relative;
+    margin: 0 auto 15px;
+    z-index: 999;
+    padding: 40px 10px;
+    color: #ffffff;
+}
+
+.mobile-img {
+    display: none;
+    width: 100%;
+}
+
+.first-logo-img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-left: 15%;
+}
+
+.second-logo-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 15%;
+}
+
+.header h2 {
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 25px;
+}
+
+.header p {
+    font-size: 14px;
+    color: #313131;
+    max-width: 337px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    margin-top: 0;
+    color: #1a2836;
+    display: block;
+    font-size: 22px;
+    font-weight: 300;
+    text-align: center;
+    padding: 8px 0 0 0;
+}
+
+#logo-ukie {
+    width: 218px;
+    height: 189px;
+}
+
+.layouts {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.layouts h2 {
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin: 40px 0 20px 0;
+    background-color: #ffd625;
+    padding: 7px 10px;
+    border-radius: 0 3px 3px 0;
+    position: absolute;
+}
+
+.img-responsive {
+    border-radius: 6px;
+}
+
+.layouts .box {
+    position: relative;
+    display: inline-block;
+    border-radius: 6px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    width: 370px;
+    height: 370px;
+    margin-bottom: 15px;
+}
+
+.box h3 {
+    position: absolute;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    z-index: 4;
+    top: 50%;
+    margin: 0;
+    opacity: 0;
+}
+
+.box h3 a {
+    color: #2f2f2f;
+    text-decoration: none;
+}
+
+.layouts .box:hover h3 {
+    opacity: 1;
+    transition: 0.7s;
+}
+
+.layouts .box:hover img {
+    opacity: 0;
+    transition: 0.7s;
+}
+
+.layouts .box:hover {
+    background-color: #f8f9fb;
+    transition: 0.7s;
+}
+
+.btn {
+    font-size: 14px;
+    font-weight: bold;
+    width: 132px;
+    height: 40px;
+    line-height: 26px;
+    color: #fff;
+    vertical-align: middle;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+
+.green {
+    background-color: #9bca1d;
+}
+
+.green:hover, .green:visited, .green:focus {
+    color: #ffffff;
+    transition: 1s;
+}
+
+.green:hover {
+    background-color: #88b019;
+}
+
+.demo {
+    background-color: #2f2f2f;
+}
+
+.demo:hover, .demo:visited, .demo:focus {
+    color: #ffffff;
+    transition: 1s;
+}
+
+.demo:hover {
+    background-color: #141414;
+}
+
+.left_col {
+    text-align: right;
+    padding-right: 7px;
+}
+
+.right_col {
+    text-align: left;
+    padding-left: 7px;
+}
+
+.btn_row {
+    margin: 35px auto 20px;
+}
+
+.copyright {
+    font-weight: 300;
+    line-height: 24px;
+    bottom: 0;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-top: 45px;
+    margin-bottom: 50px;
+    color: #c7c7c7;
+}
+
+@media screen and (max-width: 1440px) {
+    .first-logo-img {
+        margin-left: 30px;
+    }
+
+    .second-logo-img {
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .first-logo-img, .second-logo-img {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .layouts .box {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .first-logo-img, .second-logo-img {
+        display: none;
+    }
+
+    .mobile-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 468px;
+    }
+
+    .header {
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 520px) {
+    h2 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .btn {
+        width: 100px;
+        height: 30px;
+        line-height: 18px;
+        font-size: 12px;
+    }
+}
